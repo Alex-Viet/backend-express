@@ -12,7 +12,7 @@ dotenv.config();
 const {
   PORT = 3005,
   API_URL = "http://127.0.0.1",
-  MONGO_URL = "mongodb://127.0.0.1:27017/library",
+  MONGO_URL = "mongodb://127.0.0.1:27017/mydb",
 } = process.env;
 
 mongoose
